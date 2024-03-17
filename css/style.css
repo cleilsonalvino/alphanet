@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: white;
+    width: 50%;
+    padding: 20px;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+h2{ 
+    color: white;
+    padding: 20px;
+    font-size: 1.5em;
+}
+
+.cabecalho {
+    background-color: #323256;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+.buttons{
+    display: flex;
+    padding: 30px;
+    width: 500px;
+    justify-content: space-between;
+
+}
+
